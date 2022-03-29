@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/downbios/roboyoutube/issues"
   },
-  "homepage": "https://github.com/downbios/roboyoutube#readme"
+  "homepage": "https://github.com/downbios/roboyoutube#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
