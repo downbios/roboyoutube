@@ -1,0 +1,19 @@
+{
+  "name": "roboyoutube",
+  "version": "1.0.0",
+  "description": "projeto baseado no video-maker filipe deschamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downbios/roboyoutube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/downbios/roboyoutube/issues"
+  },
+  "homepage": "https://github.com/downbios/roboyoutube#readme"
+}
