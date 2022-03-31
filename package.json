@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/downbios/roboyoutube#readme",
   "dependencies": {
+    "algorithmia": "^0.3.10",
     "readline-sync": "^1.4.10"
   }
 }
