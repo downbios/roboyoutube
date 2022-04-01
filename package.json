@@ -1,23 +1,26 @@
 {
-  "name": "roboyoutube",
+  "name": "video-maker",
   "version": "1.0.0",
-  "description": "projeto baseado no video-maker filipe deschamps",
+  "description": "Projeto open source para fazer vídeos automatizados",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/downbios/roboyoutube.git"
+    "url": "git+https://github.com/filipedeschamps/video-maker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/downbios/roboyoutube/issues"
+    "url": "https://github.com/filipedeschamps/video-maker/issues"
   },
-  "homepage": "https://github.com/downbios/roboyoutube#readme",
+  "homepage": "https://github.com/filipedeschamps/video-maker#readme",
   "dependencies": {
-    "algorithmia": "^0.3.10",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.9",
+    "rss-parser": "^3.12.0",
+    "sbd": "^1.0.14",
+    "superagent": "^4.1.0",
+    "unidecode": "^0.1.8"
   }
 }

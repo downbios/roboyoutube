@@ -22,8 +22,6 @@ async function start(){
   content.prefix = askAndReturnPrefix()
   content.wikiPediaContent = await robots.wikipedia(content)
   await robots.text(content)
-  console.log('To the next step...')
-  console.log('Exiting Program...')
 
   async function askAndReturnSearchTerm () {
       const response = readline.question('Type a Wikipedia search term or G to fetch google trends: ')
@@ -34,9 +32,9 @@ async function start(){
       */
       var value = (response.toUpperCase() === 'G') ?  await robots.gTrends() : response
       if(!value){
-        console.log('You don\'t defined any search term...')
+        /*console.log('You don\'t defined any search term...')
         console.log('Exiting Program...')
-        process.exit()
+        process.exit()*/
       }
       return value
   
@@ -47,9 +45,9 @@ async function start(){
       const selectedPrefixIndex = readline.keyInSelect(prefix,'Choose an option for \''+unicode(content.searchTerm)+' \':')
       const selectedPrefixText = prefix[selectedPrefixIndex]
       if(!selectedPrefixText){
-        console.log('You don\'t defined a option for your term...')
+        /*console.log('You don\'t defined a option for your term...')
         console.log('Exiting Program...')
-        process.exit()
+        process.exit()*/
       }
       return selectedPrefixText
   }

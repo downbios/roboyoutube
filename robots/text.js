@@ -6,7 +6,7 @@ async function Text(content) {
   // await fetchContentFromWikipedia(content)
   sanitizeContent(content)
   breakContentIntoSentences(content)
-  console.log('Build Sentences')
+  /*console.log('Build Sentences')*/
 
   /*
   *
