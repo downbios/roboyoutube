@@ -1,5 +1,5 @@
 const readline = require('readline-sync')
-const Parser = require('rss-parser');
+/*const Parser = require('rss-parser');*/
 const unicode = require('unidecode');
 const robots = {
   text: require('./robots/text.js'),

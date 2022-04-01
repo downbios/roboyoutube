@@ -18,7 +18,7 @@ async function Wikipedia(content) {
     title = RealText;
     /*console.log('Searching content...')*/
     await getContent();
-    console.log('Building Structure to others Robots...')
+    /*console.log('Building Structure to others Robots...')*/
     return await buildStructure();
     
     /*
